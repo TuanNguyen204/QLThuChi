@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home" android:title="Home" android:icon="@drawable/baseline_home_24" />
+    <item android:id="@+id/item_hoadon" android:title="Hóa đơn" android:icon="@drawable/baseline_payments_24" />
+    <item android:id="@+id/item_themmoi" android:title="Thêm mới" android:icon="@drawable/baseline_add_circle_24" />
+    <item android:id="@+id/item_hanmuc" android:title="Hạn mức" android:icon="@drawable/baseline_money_off_24" />
+    <item android:id="@+id/item_bieudo" android:title="Biểu đồ" android:icon="@drawable/baseline_bar_chart_24" />
+</menu>

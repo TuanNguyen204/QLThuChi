@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/fhome_layout_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fhome_textview_date"
+            android:textSize="25dp"
+            android:text="DD/MM/YYYY"
+            />
+
+        <Button
+            android:id="@+id/fhome_button_chonngay"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Chọn ngày"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fhome_layout_tongthu"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng thu trong ngày"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/fhome_textview_tongthu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000.000"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/fhome_button_xemtongthu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Xem"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fhome_layout_tongchi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng chi trong ngày"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/fhome_textview_tongchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000.000"
+            android:textSize="30dp"
+            />
+        <Button
+            android:id="@+id/fhome_button_xemtongchi"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Xem"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
